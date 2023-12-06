@@ -6,8 +6,5 @@ public interface StatusCode {
 
     String getDescription();
 
-    static StatusCode success() {
-        return SuccessStatusCode.INSTANCE;
-    }
 
 }
