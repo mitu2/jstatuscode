@@ -3,7 +3,7 @@ package io.github.mitu2.jstatuscode;
 public enum ServiceStatusCode implements StatusCode {
 
     C0001("C0001", "调用第三方服务出错"),
-    C0100("C0100", "中间件服务出错 "),
+    C0100("C0100", "中间件服务出错"),
     C0110("C0110", "RPC 服务出错"),
     C0111("C0111", "RPC 服务未找到"),
     C0112("C0112", "RPC 服务未注册"),
@@ -24,7 +24,7 @@ public enum ServiceStatusCode implements StatusCode {
     C0152("C0152", "CDN 服务出错"),
     C0153("C0153", "域名解析服务出错"),
     C0154("C0154", "网关服务出错"),
-    C0200("C0200", "第三方系统执行超时 "),
+    C0200("C0200", "第三方系统执行超时"),
     C0210("C0210", "RPC 执行超时"),
     C0220("C0220", "消息投递超时"),
     C0230("C0230", "缓存服务超时"),
